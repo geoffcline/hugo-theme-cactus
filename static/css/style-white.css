@@ -838,8 +838,7 @@
     margin-right: 8px;
   }
   #header-post #toc nav > ul > li > ul > li {
-    color: #666;
-    font-size: 0.7rem;
+    display: none;
   }
   #header-post #toc nav > ul > li > ul > li:before {
     color: #2bbc8a;
@@ -848,8 +847,7 @@
     margin-right: 3px;
   }
   #header-post #toc nav > ul > li > ul > li > ul > li {
-    color: #525252;
-    font-size: 0.4rem;
+    display: none;
   }
   #header-post #toc .toc-level-5 {
     display: none;
