@@ -339,12 +339,12 @@
     text-transform: none;
     letter-spacing: normal;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body h3 {
     color: #383838;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
   }
   body h4,
   body h5,
@@ -463,7 +463,7 @@
     color: #383838;
     font-display: swap;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "JetBrains Mono", monospace;
     line-height: 1.725;
     text-rendering: geometricPrecision;
@@ -584,8 +584,8 @@
     letter-spacing: 0.01em;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
   }
@@ -598,18 +598,18 @@
     display: inline-block;
     float: left;
     margin-right: 20px;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 5px;
-    background-size: 50px 50px;
+    background-size: 100px 100px;
     background-repeat: no-repeat;
   }
   #header #nav {
     color: #2bbc8a;
     letter-spacing: 0.01em;
-    font-weight: 200;
+    font-weight: 450;
     font-style: normal;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   #header #nav ul {
     margin: 0;
@@ -620,6 +620,7 @@
   #header #nav ul a {
     margin-right: 15px;
     color: #2bbc8a;
+    font-face
   }
   #header #nav ul a:hover {
     background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
@@ -743,7 +744,7 @@
   #header-post #top-icon-tablet {
     position: fixed;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 2.5rem;
     margin-right: 2rem;
     margin-left: 15px;
   }
@@ -760,9 +761,9 @@
   #header-post #nav {
     color: #2bbc8a;
     letter-spacing: 0.01em;
-    font-weight: 200;
+    font-weight: 500;
     font-style: normal;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   #header-post #nav ul {
     line-height: 15px;
@@ -830,7 +831,7 @@
   } */
   #header-post #toc nav > ul > li {
     color: #383838;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   #header-post #toc nav > ul > li:before {
     color: #2bbc8a;
@@ -1055,7 +1056,7 @@
     margin-right: 16px;
     min-width: 100px;
     color: #666;
-    font-size: 14px;
+    font-size: 16px;
   }
   @media (min-width: 480px) {
     .post-list .post-item {
@@ -1080,7 +1081,7 @@
     margin-top: 0;
     margin-bottom: 0;
     text-transform: none;
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 1.25;
   }
   article header .meta {
@@ -1089,7 +1090,7 @@
   }
   article header .meta * {
     color: #8c8c8c;
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
   article header .author {
     text-transform: uppercase;
@@ -1101,7 +1102,7 @@
   }
   article .content h2:before {
     position: absolute;
-    top: -4px;
+    top: -0px;
     left: -1rem;
     color: #2bbc8a;
     content: "#";
@@ -1231,7 +1232,7 @@
     margin-right: 16px;
     min-width: 100px;
     color: #666;
-    font-size: 14px;
+    font-size: 16px;
   }
   @media (min-width: 480px) {
     #archive .post-list .post-item {
@@ -1254,7 +1255,7 @@
     color: #666;
     vertical-align: top;
     text-align: center;
-    font-size: 11px;
+    font-size: 12px;
   }
   #footer ul {
     margin: 0;
@@ -1560,7 +1561,7 @@
     padding-bottom: 0;
     border: 1px dotted #666;
     border-radius: 4px;
-    font-size: 13px;
+    font-size: 16px;
     font-family: "JetBrains Mono", monospace;
     line-height: 22px;
     -webkit-border-radius: 4px;
